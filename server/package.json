@@ -1,0 +1,30 @@
+{
+    "name": "url2-koa",
+    "version": "1.0.0",
+    "description": "koa 2 example with url route",
+    "main": "app.js",
+    "scripts": {
+        "start": "node --use_strict app.js"
+    },
+    "keywords": [
+        "koa",
+        "async"
+    ],
+    "author": "Michael Liao",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/michaelliao/learn-javascript.git"
+    },
+    "dependencies": {
+        "jsonwebtoken": "^8.5.1",
+        "knex": "^0.17.6",
+        "koa": "^2.0.0",
+        "koa-body": "^4.1.0",
+        "koa-bodyparser": "^3.2.0",
+        "koa-jwt": "^3.5.1",
+        "koa-router": "^7.4.0",
+        "koa2-cors": "^2.0.6",
+        "mssql": "^5.1.0"
+    }
+}
